@@ -20,10 +20,10 @@ input[type="checkbox"] {
   display: none;
 }
 /*************************/
-:root .dark {
-  --bg-color: #151515;
-  --second-bg-color: #272728;
-  --text-color: #b8b5b5;
+:root .dark{
+  --bg-color: rgb(196, 195, 195);
+  --second-bg-color: #9e9fa1;
+  --text-color: #545353;
   --main-color: #00ffff;
 }
 .dark header {
@@ -59,13 +59,13 @@ input[type="checkbox"] {
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
 }
-
 :root {
-  --bg-color: rgb(196, 195, 195);
-  --second-bg-color: #9e9fa1;
-  --text-color: #545353;
+  --bg-color: #151515;
+  --second-bg-color: #272728;
+  --text-color: #b8b5b5;
   --main-color: #00ffff;
 }
+
 
 html {
   font-size: 62.5%;
