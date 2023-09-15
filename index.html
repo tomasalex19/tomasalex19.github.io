@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/FINAL_LOGO.png">
+
+    <title>Portofolio | Tomás Alexandre</title>
+
+    <!--CSS-->o 
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!--HEADER-->
+    <header class="header">
+        
+        <div class="logo">
+            <a href="index.html">
+            <img src="images/FINAL_LOGO.png" alt="logo" width="50">
+            </a>
+        </div>
+        <button class="btn-menu"><i class="bi bi-list"></i></button> <!--fa fa codigo do bootsrap para o icone-->
+        
+            <nav class="navbar">
+                <a class="btn-close"><i class="bi bi-x-lg"></i></a><!--button para fechar os menus-->
+
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="playground.html">Playground</a>
+            <a href="contacts.html">Contacts</a>
+        </nav>
+
+        <input type="checkbox" name="change-theme" id="change-theme" />
+        <label class="custom-checkbox" for="change-theme">
+            <i class="bi bi-moon"></i>
+            <i class="bi bi-sun"></i>
+        </label>
+    </header>
+
+    <!--Home Design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome</h3>
+            <h1>I'm Tomás Alexandre</h1>
+            <h3>And I'm a <span>Student</span> !</h3>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/tom%C3%A1s-alexandre-30a619280/"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/tomasalex19"><i class="bi bi-github"></i></i></a>
+                <a href="#"><i class="bi bi-discord"></i></a>
+            </div>
+        </div>
+
+        <div class="center">
+            <canvas id="gameCanvas" width="400" height="400"></canvas>
+        </div>     
+    </section>
+
+    <!-- FOOTER Design-->
+    <footer class="footer">
+        <div class="footer-txt">
+            <p>Copyright &copy; 2023 by Tomás Alexandre.</p>
+        </div>
+
+        <div class="footer-logo">
+            <a href="index.html">
+                <img src="images/FINAL_LOGO.png" alt="logo" width="50"> 
+            </a>
+        </div>
+
+        <div class="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contacts.html">Contacts</a>
+        </div>
+    </footer>
+
+    
+   <!--JS-->
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
